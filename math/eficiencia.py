@@ -3,6 +3,7 @@
 #=====================#
 # 1. Perdas por condução
 # Pcond = I² * R
+# I = P / Vdc
 # Onde
 # I → Corrente média
 # R → Resistencia
@@ -10,8 +11,10 @@
 # cresce MUITO com corrente
 #=====================#
 # 2. Perdas por chaveamento
-# Psw ≈ V * I * (ton + toff) * fsw
-# V → Tensão no MOSFET
+# Psw ≈ Vdc * I * (ton + toff) * fsw
+# I = P / Vdc
+# Onde:
+# V → Tensão no MOSFET (Vdc ou Vin)
 # I → Corrente passada no MOSFET
 # fsw → frequência de chaveamento
 # ton → tempo que leva para ligar

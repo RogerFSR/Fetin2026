@@ -4,6 +4,7 @@
 #=====================#
 # Ripple de tensão
 # ΔV = I / (C * fsw)
+# I = P / Vdc
 # Onde:
 # ΔV → ripple de tensão permitido
 # I → Corrente média
@@ -11,6 +12,7 @@
 #=====================#
 # Efeito ESR (muito importante)
 # ΔV_ESR = I * ESR
+# I = P / Vdc
 # Onde:
 # ESR → resistência interna do capacitor
 # I → Corrente média
